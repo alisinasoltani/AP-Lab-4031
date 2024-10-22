@@ -24,6 +24,9 @@ public:
 	
 	void swap(Account& acc1, Account& acc2);
 	void print();
+
+	Account *merge(Account *first, Account *second);
+	Account *MergeSort(Account *head);
 private:
 	Account* head;
 	int size;
